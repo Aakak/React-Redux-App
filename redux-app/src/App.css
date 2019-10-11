@@ -20,3 +20,23 @@
 .App-link {
   color: #09d3ac;
 }
+
+.anime-container{
+  width: 880px;
+  margin: 0 auto;
+}
+
+.anime-cards{
+  width: 70%;
+  background:#D3D3D3;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.anime-cards p{
+   margin: 20px;
+}
+
+.anime-content p{
+  margin-bottom: 40px;
+}

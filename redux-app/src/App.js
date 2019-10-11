@@ -8,7 +8,10 @@ function App() {
   return (
     <div className="App">
     <h1>Anime List</h1>
+    <div className="anime-container">
     <AnimeList />
+    </div>
+   
     </div>
   );
 }

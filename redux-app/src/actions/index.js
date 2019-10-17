@@ -9,7 +9,6 @@ export const FETCH_FAILURE = 'FETCH_FAILURE';
 export const fetchList = () => dispatch => { 
         dispatch({ type: 'START_FETCHING'})
       axios
-    //   .get('https://cors-anywhere.herokuapp.com/https://cat-fact.herokuapp.com/facts')
       .get('https://api.jikan.moe/v3/genre/anime/1/1')
       .then(res => dispatch( {type: FETCH_SUCCESS, payload: res.data.anime }))
       .catch(err => dispatch({ type: FETCH_FAILURE, payload: err.response }));
